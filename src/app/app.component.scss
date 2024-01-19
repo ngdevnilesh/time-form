@@ -1,0 +1,62 @@
+.container {
+    max-width: 360px;
+    margin: auto;
+}
+
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.day-checkbox {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.day-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.day-checkbox label {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.day-checkbox input[type="checkbox"]:checked + label {
+    background-color: #74409d;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+}
+
+.time-section > * {
+    margin-right: 10px;
+}
+
+
+.text-primary {
+    color: #74409d !important;
+}
